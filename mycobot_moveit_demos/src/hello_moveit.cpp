@@ -75,7 +75,7 @@ int main(int argc, char * argv[])
     msg.header.stamp = node->now();
     msg.pose.position.x = 0.2;
     msg.pose.position.y = 0.2;
-    msg.pose.position.z = 0.2;
+    msg.pose.position.z = 0.17;
     msg.pose.orientation.x = 0.0;
     msg.pose.orientation.y = 0.0;
     msg.pose.orientation.z = 0.0;
